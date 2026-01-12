@@ -9,9 +9,3 @@ if resp.status_code == 200:
     pass
 else:
     print(f"1111111111111111:{resp.status_code}")
-
-e = etree.HTML(resp.text)
-
-
-
-
